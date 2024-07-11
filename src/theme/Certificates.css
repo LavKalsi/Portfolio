@@ -1,0 +1,212 @@
+/* src/theme/Certificates.css */
+
+/* Certificates section */
+.Certificates-section {
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .Certificates-section h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #a3a4a4;
+  }
+  
+  .Certificates-section p {
+    margin-bottom: 20px;
+    color: #c5c6c7;
+  }
+  
+  /* Grid layout for Certificates */
+  .Certificates-grid {
+    list-style-type: none;
+    display: grid;
+    padding: 40px;
+    margin-right: 90px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #00000080;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card svg {
+    width: 48px;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card svg:hover {
+    width: 48px;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #282828;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  
+  .text {
+    flex-grow: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+  
+  .subtitle {
+    font-size: .6em;
+    font-weight: 300;
+    color: rgba(240, 248, 255, 0.691);
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around; /* Center icons */
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+  }
+  
+  .btn {
+    border: none;
+    width: 50%;
+    height: 50px;
+    background-color: rgba(247, 234, 234, 0.589);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn svg {
+    width: 20px;
+    height: 20px;
+    stroke: rgb(0, 0, 0);
+  }
+  
+  .btn:hover {
+    background-color: rgb(247, 234, 234);
+  }
+  
+  .card:hover::before {
+    width: 140px;
+    height: 140px;
+    top: -30%;
+    left: 50%;
+    filter: blur(0rem);
+  }
+  
+  .head2{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+    width: 30%;
+  }
+  .Certificates-grid{
+    width: 70%;
+    margin-left: 0px;
+  }
+  
+  .split1{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .split1{
+      display: flex;
+      flex-direction: column;
+    }
+    .Certificates-section {
+      display: block;
+      padding: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  
+    .head2{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .Certificates-grid {
+      padding: 0px;
+      width: 100%;
+      margin-left: 0px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3,1fr); /* One column for mobile */
+    }
+  }
+  
+  /* Show more button */
+  .show-more {
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .show-more:hover {
+    background-color: #0056b3;
+  }
+  

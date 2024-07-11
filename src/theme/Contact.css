@@ -1,0 +1,96 @@
+/* src/components/Contacts.css */
+.contacts {
+  background-color: #1f2833;
+  padding: 40px 0;
+}
+
+.contacts--container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts h1 {
+  color: #66fcf1;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contacts-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.personal-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #c5c6c7;
+}
+
+.personal-details p {
+  color: #c5c6c7;
+  margin: 0;
+}
+
+.details-icon {
+  background-color: #0b0c10;
+  color: #66fcf1;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  transition: 250ms ease-in-out;
+}
+
+.details-icon:hover {
+  transform: scale(1.1);
+  color: #0b0c10;
+  background-color: #66fcf1;
+}
+
+.socialmedia-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  background-color: #0b0c10;
+  color: #66fcf1;
+  transition: 250ms ease-in-out;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #0b0c10;
+  background-color: #66fcf1;
+}
+
+.contacts--img {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 400px;
+}

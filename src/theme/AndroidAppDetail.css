@@ -1,0 +1,63 @@
+/* src/theme/AndroidAppDetail.css */
+.android-app-detail {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone-frame {
+    border: 16px solid #333;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .phone-frame img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .app-info {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .app-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .app-info p {
+    margin-bottom: 20px;
+  }
+  
+  .app-buttons .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .app-buttons .btn i {
+    margin-right: 5px;
+  }
+  
+  .app-buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  

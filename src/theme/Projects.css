@@ -1,0 +1,260 @@
+/* src/theme/Projects.css */
+
+/* Projects section */
+.projects-section {
+  padding: 0px;
+  margin: 0px;
+}
+
+.projects-section h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #a3a4a4;
+}
+
+.button8{
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-direction: column;
+}
+.button8 button{
+  width: 160px;
+  margin-left: 130px;
+  height: 50px;
+  margin-top: 0;
+}
+.projects-section p {
+  margin-bottom: 20px;
+}
+
+/* Grid layout for projects */
+.projects-grid {
+  list-style-type: none;
+  display: grid;
+  padding: 40px;
+  margin-left: 90px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Card styling */
+.card {
+  height: 200px;
+  border-radius: 15px;
+  background: rgba(235, 255, 60, 0.103);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-size: cover; /* Ensure the background image covers the entire card */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  transition: transform 0.5s ease; /* Add animation for pop effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover for pop effect */
+}
+
+.card::before {
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  border-radius: 50%;
+  border: 35px solid rgba(255, 255, 255, 0.102);
+  transition: all .8s ease;
+  filter: blur(.5rem);
+}
+
+.text {
+  flex-grow: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.subtitle {
+  font-size: .6em;
+  font-weight: 300;
+  color: rgba(240, 248, 255, 0.691);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around; /* Center icons */
+  align-items: center;
+  width: 100%;
+  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+}
+
+.btn {
+  border: none;
+  width: 50%;
+  height: 35px;
+  background-color: rgba(247, 234, 234, 0.589);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+  stroke: rgb(0, 0, 0);
+}
+
+.btn:hover {
+  background-color: rgb(247, 234, 234);
+}
+
+.card:hover::before {
+  width: 140px;
+  height: 140px;
+  top: -30%;
+  left: 50%;
+  filter: blur(0rem);
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  flex-direction: column;
+  width: 30%;
+}
+.projects-grid{
+  width: 70%;
+}
+
+.split{
+  display: flex;
+  padding-top: 40px;
+  flex-direction: row-reverse;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .split{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-section {
+    display: block;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .button8{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .button8 button{
+    width: 180px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0;
+  }
+
+  .head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .projects-grid {
+    padding: 0px;
+    width: 100%;
+    
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3,1fr); 
+    /* One column for mobile */
+  }
+}
+
+/* Show more button */
+.show-more {
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.show-more:hover {
+  background-color: #0056b3;
+}
+.container2 {
+  background-color: #41414100;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    translate: 0px 36px;
+  }
+  50% {
+    translate: 0px 46px;
+  }
+}
+@keyframes bounce2 {
+  0%,
+  100% {
+    translate: 0px 46px;
+  }
+  50% {
+    translate: 0px 56px;
+  }
+}
+
+@keyframes umbral {
+  0% {
+    stop-color: #d3a5102e;
+  }
+  50% {
+    stop-color: rgba(211, 165, 16, 0.519);
+  }
+  100% {
+    stop-color: #d3a5102e;
+  }
+}
+@keyframes partciles {
+  0%,
+  100% {
+    translate: 0px 16px;
+  }
+  50% {
+    translate: 0px 6px;
+  }
+}
+#particles {
+  animation: partciles 4s ease-in-out infinite;
+}
+#animatedStop {
+  animation: umbral 4s infinite;
+}
+#bounce {
+  animation: bounce 4s ease-in-out infinite;
+  translate: 0px 36px;
+}
+#bounce2 {
+  animation: bounce2 4s ease-in-out infinite;
+  translate: 0px 46px;
+  animation-delay: 0.5s;
+}
