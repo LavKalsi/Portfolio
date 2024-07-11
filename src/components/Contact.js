@@ -6,8 +6,6 @@ import {
     faTwitter,
     faLinkedinIn,
     faGithub,
-    faYoutube,
-    faRedditAlien,
     faInstagram,
     faMediumM,
     faFacebook
@@ -24,7 +22,6 @@ const Contacts = () => {
         twitter: 'https://x.com/KalsiLav',
         linkedIn: 'https://www.linkedin.com/in/lavkalsi/',
         github: 'https://github.com/LavKalsi',
-        youtube: 'https://www.youtube.com/channel/UCW4zQGGBWCDGjkxFJQj-8HQ',
         instagram: 'https://www.instagram.com/lavkalsi/',
         medium: 'https://medium.com/@lavkalsi',
         facebook: 'https://www.facebook.com/profile.php?id=100009068224498'
@@ -60,7 +57,6 @@ const Contacts = () => {
                             {socialsData.linkedIn && renderSocialIcon(faLinkedinIn, socialsData.linkedIn)}
                             {socialsData.instagram && renderSocialIcon(faInstagram, socialsData.instagram)}
                             {socialsData.medium && renderSocialIcon(faMediumM, socialsData.medium)}
-                            {socialsData.youtube && renderSocialIcon(faYoutube, socialsData.youtube)}
                             {socialsData.facebook && renderSocialIcon(faFacebook, socialsData.facebook)}
                         </div>
                     </div>

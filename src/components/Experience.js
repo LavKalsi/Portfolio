@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '../theme/Experience.css';
-import ExperienceData from './ExperienceData';
+import ExperienceData from '../components/ExperienceData';
 
 const Experience = () => {
   const ref = useRef(null);

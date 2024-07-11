@@ -13,7 +13,7 @@ import About from './components/About';
 import Certificate from './components/Certificates';
 import Experience from './components/Experience';
 import CertificateDetail from './components/CertificateDetail';
-import AndroidAppDetail from './components/AndroidAppDetail';
+import AndroidAppDetail from './components/AndroidAppDetail'; // Added import for AndroidAppDetail
 
 function App() {
   return (
@@ -21,19 +21,21 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route path="/" element={<>
-            <HomeScreen />
-            <About />
-            <Education />
-            <Skills />
-            <Experience />
-            <Projects />
-            <Certificate />
-            <Contact />
-          </>} />
+          <Route path="/Portfolio" element={
+            <>
+              <HomeScreen />
+              <About />
+              <Education />
+              <Skills />
+              <Experience />
+              <Projects />
+              <Certificate />
+              <Contact />
+            </>
+          } />
           <Route path="/resume" element={<Resume />} />
           <Route path="/experience/:id" element={<CertificateDetail />} />
-          <Route path="/android-app-detail" element={<AndroidAppDetail />} />
+          <Route path="/android-app-detail" element={<AndroidAppDetail />} /> {/* Added Route for AndroidAppDetail */}
         </Routes>
       </div>
     </Router>

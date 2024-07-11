@@ -220,6 +220,9 @@
   .skillsHeader h2 {
       font-size: 2.5rem;
   }
+.skillsHeader{
+  width: 100%;
+}
 
   .skill--box h3 {
       font-size: 18px;
