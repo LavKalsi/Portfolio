@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ce7aa8b6.css",
-    "main.js": "/Portfolio/static/js/main.02441953.js",
+    "main.js": "/Portfolio/static/js/main.f19203d2.js",
     "static/media/MyPhoto.jpg": "/Portfolio/static/media/MyPhoto.74ad29a431b83778c8ae.jpg",
+    "static/media/LSApp.png": "/Portfolio/static/media/LSApp.1e6219242398b3e58465.png",
     "static/media/MovieRatingPredictor.png": "/Portfolio/static/media/MovieRatingPredictor.e9a70d2f35c1b96c2ed3.png",
     "static/media/FakeNewsDetector.jpg": "/Portfolio/static/media/FakeNewsDetector.76f5f0467b860f7205e6.jpg",
     "static/media/CreditCardFraudDetector.png": "/Portfolio/static/media/CreditCardFraudDetector.c498d19f9bb2a84294fa.png",
@@ -15,14 +16,13 @@
     "static/media/InfosysAdvancedCSharp.png": "/Portfolio/static/media/InfosysAdvancedCSharp.7d576be27ae694f9e7c5.png",
     "static/media/InfosysReactJS.png": "/Portfolio/static/media/InfosysReactJS.807e81d1917fc76d4741.png",
     "static/media/Resume.png": "/Portfolio/static/media/Resume.5ae811c8a15659cc62f8.png",
-    "static/media/Placeholder.jpg": "/Portfolio/static/media/Placeholder.97e5090d6b6537f6993c.jpg",
     "static/media/CodSoft.jpg": "/Portfolio/static/media/CodSoft.9edf9e0a8b295c1ce54f.jpg",
     "index.html": "/Portfolio/index.html",
     "main.ce7aa8b6.css.map": "/Portfolio/static/css/main.ce7aa8b6.css.map",
-    "main.02441953.js.map": "/Portfolio/static/js/main.02441953.js.map"
+    "main.f19203d2.js.map": "/Portfolio/static/js/main.f19203d2.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7aa8b6.css",
-    "static/js/main.02441953.js"
+    "static/js/main.f19203d2.js"
   ]
 }
