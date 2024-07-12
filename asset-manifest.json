@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ce7aa8b6.css",
-    "main.js": "/Portfolio/static/js/main.2f4d0443.js",
+    "main.js": "/Portfolio/static/js/main.02441953.js",
     "static/media/MyPhoto.jpg": "/Portfolio/static/media/MyPhoto.74ad29a431b83778c8ae.jpg",
     "static/media/MovieRatingPredictor.png": "/Portfolio/static/media/MovieRatingPredictor.e9a70d2f35c1b96c2ed3.png",
     "static/media/FakeNewsDetector.jpg": "/Portfolio/static/media/FakeNewsDetector.76f5f0467b860f7205e6.jpg",
     "static/media/CreditCardFraudDetector.png": "/Portfolio/static/media/CreditCardFraudDetector.c498d19f9bb2a84294fa.png",
+    "static/media/TranslatorApp.png": "/Portfolio/static/media/TranslatorApp.35160ac4de5fb24c019c.png",
     "static/media/TitanicSurvialDetector.png": "/Portfolio/static/media/TitanicSurvialDetector.a77d563caeb335d9c19e.png",
     "static/media/CourseraPython3Programming.png": "/Portfolio/static/media/CourseraPython3Programming.408eedab5983111099ce.png",
     "static/media/PinnacleLabs.png": "/Portfolio/static/media/PinnacleLabs.bcc48ccaf6da63b2c55f.png",
@@ -18,10 +19,10 @@
     "static/media/CodSoft.jpg": "/Portfolio/static/media/CodSoft.9edf9e0a8b295c1ce54f.jpg",
     "index.html": "/Portfolio/index.html",
     "main.ce7aa8b6.css.map": "/Portfolio/static/css/main.ce7aa8b6.css.map",
-    "main.2f4d0443.js.map": "/Portfolio/static/js/main.2f4d0443.js.map"
+    "main.02441953.js.map": "/Portfolio/static/js/main.02441953.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7aa8b6.css",
-    "static/js/main.2f4d0443.js"
+    "static/js/main.02441953.js"
   ]
 }
