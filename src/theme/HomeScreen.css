@@ -10,7 +10,8 @@
 }
 
 .home-header .empty {
-  width: 40%;
+  width: 60%;
+  height: 100%;
 }
 
 .home-header h1{
@@ -18,8 +19,7 @@
 }
 
 .home-header .container {
-  width: 60%;
-  margin: 0 auto;
+  width: 32%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -27,8 +27,7 @@
 
 .home-header .home-text {
   text-align: right;
-  padding-right: 100px;
-  padding-left: 100px;
+  width: 100%;
 }
 
 .home-header .home-text h1 {
@@ -41,7 +40,7 @@
 }
 
 .home-header .home-text h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   margin-top: 10px;
 }
 
@@ -54,7 +53,7 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 30px;
-  padding-left: 200px;
+  padding-left: 0px;
 }
 
 .home-header .btn {
@@ -89,7 +88,7 @@
 }
 
 button {
-  padding: 15px 25px;
+  padding: 15px 15px;
   border: unset;
   border-radius: 15px;
   color: #212121;
@@ -182,11 +181,13 @@ button {
   }
 
   .home-header .empty {
-    display: none;
+    width: 100%;
+    height: 50%;
   }
 
   .home-header .container {
     width: 100%;
+    height: 50%;
     justify-content: center;
     padding: 0 0px;
   }
@@ -197,19 +198,22 @@ button {
 
   .home-header .home-text h1 {
     font-size: 2em;
+    margin-inline: 20px;
   }
 
   .home-header .home-text h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+    margin-inline: 20px;
   }
 
   .home-header .home-text p {
     font-size: 1em;
+    margin-inline: 20px;
     margin-top: 10px;
   }
 
   .home-header .button-group {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
@@ -224,5 +228,7 @@ button {
 
   .button-group a {
     margin: 10px 0;
+    padding: 15px 15px;
+    margin-right: 10px;
   }
 }

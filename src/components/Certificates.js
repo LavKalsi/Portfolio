@@ -7,7 +7,7 @@ import cert3 from '../assets/certificate/InfosysReactJS.png'
 
 const CertificatesData = [
   {
-    title: "Corsera",
+    title: "Coursera",
     subtitle: "Python 3 Programming",
     backgroundImage: cert1
   },

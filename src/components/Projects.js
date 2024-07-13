@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../theme/Projects.css';
 
-import projectImage1 from '../assets//projects/FakeNewsDetector.jpg'; 
-import projectImage2 from '../assets/Placeholder.jpg'; 
+import projectImage1 from '../assets/projects/FakeNewsDetector.jpg'; 
+import projectImage2 from '../assets/projects/TranslatorApp.png'; 
 import projectImage3 from '../assets/projects/TitanicSurvialDetector.png';
 import projectImage4 from '../assets/projects/CreditCardFraudDetector.png';
 import projectImage5 from '../assets/projects/MovieRatingPredictor.png'; 
-import projectImage6 from '../assets/Placeholder.jpg'; 
+import projectImage6 from '../assets/projects/LSApp.png'; 
 
 const projectsData = [
   {
@@ -17,9 +17,9 @@ const projectsData = [
     backgroundImage: projectImage1
   },
   {
-    title: "Project 2",
-    subtitle: "Vivamus nisi purus",
-    websiteLink: "https://your-website-link.com",
+    title: "",
+    subtitle: "",
+    websiteLink: "https://lavkalsi.github.io/LanguageTranslatorApp/",
     githubLink: "https://github.com/LavKalsi/LanguageTranslatorApp",
     backgroundImage: projectImage2
   },
@@ -45,9 +45,9 @@ const projectsData = [
     backgroundImage: projectImage5
   },
   {
-    title: "Project 6",
-    subtitle: "Vivamus nisi purus",
-    websiteLink: "https://your-website-link.com",
+    title: "",
+    subtitle: "",
+    websiteLink: "https://lavkalsi.github.io/LoginSignupSQLite/",
     githubLink: "https://github.com/LavKalsi/LoginSignupSQLite",
     backgroundImage: projectImage6
   },
