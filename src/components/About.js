@@ -1,13 +1,13 @@
 // src/components/About.js
 import React from 'react';
 import '../theme/About.css';
-import Image from '../assets/MyPhoto.jpg';
+import Image from '../assets/MyPhoto.png';
 
 const About = () => {
     const aboutData = {
         name: 'Lav Kalsi',
-        description: 'I am a passionate software developer with experience in Android development and data science projects. I love to explore new technologies and apply them in my projects to solve real-world problems.',
-        profilePicture: Image, // Replace with the path to your profile picture
+        description: 'I am a passionate software developer with experience in Android development and data science projects. I love to explore new technologies and apply them in my projects to solve real-world problems. I also love to create apps which makes everyones life easy.',
+        profilePicture: Image, 
     };
 
     return (
