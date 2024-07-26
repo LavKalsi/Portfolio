@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.684fff6a.css",
-    "main.js": "/Portfolio/static/js/main.01637fdf.js",
+    "main.js": "/Portfolio/static/js/main.67a8e97c.js",
     "static/js/208.57c0c3c1.chunk.js": "/Portfolio/static/js/208.57c0c3c1.chunk.js",
     "static/js/293.8831f74b.chunk.js": "/Portfolio/static/js/293.8831f74b.chunk.js",
     "static/js/917.8bf0b001.chunk.js": "/Portfolio/static/js/917.8bf0b001.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/23.63366c8d.chunk.js": "/Portfolio/static/js/23.63366c8d.chunk.js",
     "static/media/LSApp.png": "/Portfolio/static/media/LSApp.1e6219242398b3e58465.png",
     "static/media/MovieRatingPredictor.png": "/Portfolio/static/media/MovieRatingPredictor.e9a70d2f35c1b96c2ed3.png",
+    "static/media/CryptographyApp.png": "/Portfolio/static/media/CryptographyApp.9a830f62d0f3093fe000.png",
     "static/media/FakeNewsDetector.jpg": "/Portfolio/static/media/FakeNewsDetector.76f5f0467b860f7205e6.jpg",
     "static/media/CreditCardFraudDetector.png": "/Portfolio/static/media/CreditCardFraudDetector.c498d19f9bb2a84294fa.png",
     "static/media/TranslatorApp.png": "/Portfolio/static/media/TranslatorApp.35160ac4de5fb24c019c.png",
@@ -27,7 +28,7 @@
     "static/media/CodSoft.jpg": "/Portfolio/static/media/CodSoft.9edf9e0a8b295c1ce54f.jpg",
     "index.html": "/Portfolio/index.html",
     "main.684fff6a.css.map": "/Portfolio/static/css/main.684fff6a.css.map",
-    "main.01637fdf.js.map": "/Portfolio/static/js/main.01637fdf.js.map",
+    "main.67a8e97c.js.map": "/Portfolio/static/js/main.67a8e97c.js.map",
     "208.57c0c3c1.chunk.js.map": "/Portfolio/static/js/208.57c0c3c1.chunk.js.map",
     "293.8831f74b.chunk.js.map": "/Portfolio/static/js/293.8831f74b.chunk.js.map",
     "917.8bf0b001.chunk.js.map": "/Portfolio/static/js/917.8bf0b001.chunk.js.map",
@@ -39,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.684fff6a.css",
-    "static/js/main.01637fdf.js"
+    "static/js/main.67a8e97c.js"
   ]
 }
