@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.684fff6a.css",
-    "main.js": "/Portfolio/static/js/main.313433e7.js",
+    "main.css": "/Portfolio/static/css/main.40dd02c0.css",
+    "main.js": "/Portfolio/static/js/main.0308b301.js",
     "static/js/208.57c0c3c1.chunk.js": "/Portfolio/static/js/208.57c0c3c1.chunk.js",
     "static/js/293.8831f74b.chunk.js": "/Portfolio/static/js/293.8831f74b.chunk.js",
     "static/js/917.8bf0b001.chunk.js": "/Portfolio/static/js/917.8bf0b001.chunk.js",
@@ -21,7 +21,10 @@
     "static/media/FaceMatchWebsite.png": "/Portfolio/static/media/FaceMatchWebsite.bf752ee83fc539171108.png",
     "static/media/CourseraPython3Programming.png": "/Portfolio/static/media/CourseraPython3Programming.408eedab5983111099ce.png",
     "static/media/PinnacleLabs.png": "/Portfolio/static/media/PinnacleLabs.bcc48ccaf6da63b2c55f.png",
+    "static/media/GenerateInsigths.png": "/Portfolio/static/media/GenerateInsigths.8dfbd2fae68595b6685d.png",
+    "static/media/WebDevelopment.png": "/Portfolio/static/media/WebDevelopment.e14561715a8f32086888.png",
     "static/media/certificate.gif": "/Portfolio/static/media/certificate.9f8e43cb65e1241691bf.gif",
+    "static/media/IntoductionToDataAnalytics.png": "/Portfolio/static/media/IntoductionToDataAnalytics.7be9cefc27df64990ce9.png",
     "static/media/MyPhoto.png": "/Portfolio/static/media/MyPhoto.46161e5f5280100bc606.png",
     "static/media/CodSoft.png": "/Portfolio/static/media/CodSoft.d419b04ba0c5ab550685.png",
     "static/media/InfosysAdvancedCSharp.png": "/Portfolio/static/media/InfosysAdvancedCSharp.7d576be27ae694f9e7c5.png",
@@ -33,8 +36,8 @@
     "static/media/StockPricePrediction.png": "/Portfolio/static/media/StockPricePrediction.2373f55d703df8e2f0a3.png",
     "static/media/CodSoft.jpg": "/Portfolio/static/media/CodSoft.9edf9e0a8b295c1ce54f.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.684fff6a.css.map": "/Portfolio/static/css/main.684fff6a.css.map",
-    "main.313433e7.js.map": "/Portfolio/static/js/main.313433e7.js.map",
+    "main.40dd02c0.css.map": "/Portfolio/static/css/main.40dd02c0.css.map",
+    "main.0308b301.js.map": "/Portfolio/static/js/main.0308b301.js.map",
     "208.57c0c3c1.chunk.js.map": "/Portfolio/static/js/208.57c0c3c1.chunk.js.map",
     "293.8831f74b.chunk.js.map": "/Portfolio/static/js/293.8831f74b.chunk.js.map",
     "917.8bf0b001.chunk.js.map": "/Portfolio/static/js/917.8bf0b001.chunk.js.map",
@@ -45,7 +48,7 @@
     "23.63366c8d.chunk.js.map": "/Portfolio/static/js/23.63366c8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.684fff6a.css",
-    "static/js/main.313433e7.js"
+    "static/css/main.40dd02c0.css",
+    "static/js/main.0308b301.js"
   ]
 }
