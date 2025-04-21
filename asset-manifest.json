@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.40dd02c0.css",
-    "main.js": "/Portfolio/static/js/main.90d491df.js",
+    "main.js": "/Portfolio/static/js/main.0321b466.js",
     "static/js/208.57c0c3c1.chunk.js": "/Portfolio/static/js/208.57c0c3c1.chunk.js",
     "static/js/293.8831f74b.chunk.js": "/Portfolio/static/js/293.8831f74b.chunk.js",
     "static/js/917.8bf0b001.chunk.js": "/Portfolio/static/js/917.8bf0b001.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/GenerateInsigths.png": "/Portfolio/static/media/GenerateInsigths.8dfbd2fae68595b6685d.png",
     "static/media/WebDevelopment.png": "/Portfolio/static/media/WebDevelopment.e14561715a8f32086888.png",
     "static/media/certificate.gif": "/Portfolio/static/media/certificate.9f8e43cb65e1241691bf.gif",
+    "static/media/Finova.png": "/Portfolio/static/media/Finova.bfe727036a7864966776.png",
     "static/media/IntoductionToDataAnalytics.png": "/Portfolio/static/media/IntoductionToDataAnalytics.7be9cefc27df64990ce9.png",
     "static/media/MyPhoto.png": "/Portfolio/static/media/MyPhoto.46161e5f5280100bc606.png",
     "static/media/CodSoft.png": "/Portfolio/static/media/CodSoft.d419b04ba0c5ab550685.png",
@@ -38,7 +39,7 @@
     "static/media/CodSoft.jpg": "/Portfolio/static/media/CodSoft.9edf9e0a8b295c1ce54f.jpg",
     "index.html": "/Portfolio/index.html",
     "main.40dd02c0.css.map": "/Portfolio/static/css/main.40dd02c0.css.map",
-    "main.90d491df.js.map": "/Portfolio/static/js/main.90d491df.js.map",
+    "main.0321b466.js.map": "/Portfolio/static/js/main.0321b466.js.map",
     "208.57c0c3c1.chunk.js.map": "/Portfolio/static/js/208.57c0c3c1.chunk.js.map",
     "293.8831f74b.chunk.js.map": "/Portfolio/static/js/293.8831f74b.chunk.js.map",
     "917.8bf0b001.chunk.js.map": "/Portfolio/static/js/917.8bf0b001.chunk.js.map",
@@ -50,6 +51,6 @@
   },
   "entrypoints": [
     "static/css/main.40dd02c0.css",
-    "static/js/main.90d491df.js"
+    "static/js/main.0321b466.js"
   ]
 }
